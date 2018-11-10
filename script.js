@@ -52,7 +52,9 @@ $(window).scroll(function(){
     //ripples
     $("#header, .info").ripples({
         dropRadius:25,
-        perturbance:0.6,
+        perturbance:0.03, 
+        resolution: 700,
+        imageURL: null
     })
 
     //magnific popup
