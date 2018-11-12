@@ -19,7 +19,11 @@ body {
    
 }
 .primary-color {
-    color: #A390E4;
+    color: #304A78;
+}
+
+.secondary-color{
+    color: #DCB13C;
 }
 
 .info h2 {
@@ -31,7 +35,7 @@ body {
 }
 
 .info a:hover {
-    color: #DCF763;
+    color: #DCB13C;
 }
 
 /*header section*/
@@ -91,7 +95,7 @@ body {
 }
 
 .navbar-brand:hover{
-    color:#DCF763;
+    color: #DCB13C;
 }
 
 .nav-link{
@@ -102,25 +106,25 @@ body {
 }
 
 .nav-link:hover{
-    color: #DCF763;
+    color: #DCB13C;
 }
 
 .nav-btn{
     background: transparent;
-    color:#DCF763;
-    border: 2px solid #DCF763;
+    color:#DCB13C;
+    border: 2px solid #DCB13C;
     font-size: 23px;
     transition: all 2s ease;
 }
 
 .nav-btn:hover{
-    color: #DCF763;
-    border: 2px solid #DCF763;
+    color: #DCB13C;
+    border: 2px solid #DCB13C;
     transform: rotate(10deg);
 }
 
 .toggler-btn{
-    border: 2px solid #DCF763;
+    border: 2px solid #DCB13C;
     padding: 5px;
     transition: all 2s ease;
 }
@@ -129,7 +133,7 @@ body {
     width: 30px;
     height: 3px;
     margin: 5px;
-    background: #DCF763;
+    background: #DCB13C;
     transition: all 0.5s ease;
 }
 
@@ -146,15 +150,15 @@ body {
 }
 /*menu items*/
 .main-btn{
-    color: #A390E4;
+    color: #DCB13C;
     font-size: 2rem;
-    border: 2px solid #A390E4;
+    border: 2px solid #DCB13C;
     transition: all 1s ease-in-out;
     background: transparent;
 }
 
 .main-btn:hover{
-    color: #DCF763;
+    color: #DCB13C;
     border: 2px solid #FEFFFE;
 }
 
@@ -184,7 +188,7 @@ body {
     display:inline-block;
     position:absolute;
     bottom:5%;
-    left:50%;
+    left:48%;
     background: #FEFFFE;
     border-radius: 10px;
     padding: 15px;
@@ -196,7 +200,7 @@ body {
 
 
 .header-link:hover{
-    color: #DCF763;
+    color: #DCB13C;
 }
 
 @keyframes fromBottom{
@@ -243,7 +247,7 @@ body {
     transform: translate(-50%, -50%);
     color: #FEFFFE;
     font-size: 2rem;
-    border-top: 3px solid #FEFFFE;
+    border-top: 2px solid #FEFFFE;
     border-bottom: 3px solid #FEFFFE;
     transition: all 2s ease;
     opacity: 0;
@@ -254,7 +258,7 @@ body {
 }
 
 .item-link:hover{
-    color: #DCF763;
+    color: #DCB13C;
     border-top: 3px solid #FEFFFE;
     border-bottom: 3px solid #FEFFFE;
     background: transparent;
@@ -268,7 +272,7 @@ body {
 }
 
 .special{
-    border: 3px solid #DCF763;
+    border: 3px solid #DCB13C;
     position: relative; /*for text we have in special class we need absolute position so we must set parent to relative*/
 }
 
@@ -276,7 +280,7 @@ body {
     position: absolute;
     top:0;
     right:10%;
-    background: #DCF763;
+    background: transparent;
     padding: 0 0.4rem;
 }
 
@@ -288,16 +292,17 @@ body {
 
 .about-image{
     position:absolute;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     transition: all 2s ease;
     opacity: 0.9;
 }
 
 .img-1{
-    left:20%;
+    /* left:20%; */
     top:0%;
 }
-
+/* 
 .img-3{
     left:60%;
     top:45%;
@@ -314,13 +319,13 @@ body {
     left:20%;
     top:45%;
     
-}
+} */
 
 .about-image:hover{
     /* outline:10px solid #DCF763; */
     outline-offset: 0.6rem;
-    transform: scale(1.5);
-    z-index: 30;
+    transform: scale(1);
+    /* z-index: 30; */
     opacity:1;
 }
 
@@ -342,12 +347,12 @@ body {
 /*team*/
 
 .team-icons a{
-    color: #A390E4;
+    color: #304A78;
     transition: all 2s ease;
 }
 
 .team-icons a:hover{
-    color: #DCF763;
+    color: #DCB13C;
     transform: translateY(-5px);
 }
 
@@ -368,12 +373,12 @@ body {
 }
 
 #contact .card-header{
-    color: #DCF763;
+    color:#DCB13C;
 }
 
 #contact .input-group-text{
-    background: #DCF763;
-    border-color: #DCF763;
+    background: #DCB13C;
+    border-color: #DCB13C;
     color: #242424;
 }
 
@@ -386,15 +391,15 @@ body {
 }
 
 .contact-btn{
-    color: #DCF763;
-    border-color: #DCF763;
+    color: #304A78;
+    border-color: #304A78;
     background: transparent;
     transition: all 2s ease-in-out;
 }
 
 .contact-btn:hover{
     background: #FEFFFE;
-    color: #DCF763;
+    color: #DCB13C;
     border-color: #FEFFFE;
 }
 
@@ -410,4 +415,17 @@ body {
     position: fixed;
     bottom: 70px;
     right: 10px;
+}
+
+/*preloader*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
 }
