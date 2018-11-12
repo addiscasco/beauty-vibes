@@ -223,7 +223,7 @@ body {
 }
 
 .item-container:hover{
-    outline: 10px solid #DCF763;
+    /* outline: 10px solid #DCF763; */
     outline-offset: 0.6rem;
 }
 
@@ -317,9 +317,9 @@ body {
 }
 
 .about-image:hover{
-    outline:10px solid #DCF763;
+    /* outline:10px solid #DCF763; */
     outline-offset: 0.6rem;
-    transform: scale(1.5) rotate(20deg);
+    transform: scale(1.5);
     z-index: 30;
     opacity:1;
 }
@@ -331,7 +331,7 @@ body {
 /*testimonial*/
 .review-item{
     background: rgba(255,255,255,0.7);
-    clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
+    /* clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%); */
 }
 .review-img{
     width: 150px;
@@ -358,12 +358,13 @@ body {
 }
 
 #contact .card{
-    background: rgba(0,0,0,0.5);
+    background: #FEFFFE;
     transition: all 2s ease;
 }
 
 #contact .card:hover{
-    background: rgba(0,0,0,0.8);
+    background: #FEFFFE;
+    opacity: .2em;
 }
 
 #contact .card-header{
